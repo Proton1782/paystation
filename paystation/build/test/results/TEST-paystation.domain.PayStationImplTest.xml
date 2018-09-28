@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MSI" name="paystation.domain.PayStationImplTest" skipped="0" tests="15" time="0.186" timestamp="2018-09-28T01:58:31">
+  <properties>
+    <property name="libs.spring-framework300.classpath" value="D:\Programs\netbeans\ide\modules\org-apache-commons-logging.jar;D:\Programs\netbeans\java\modules\ext\cglib-2.2.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
+    <property name="javac.includesfile.binary" value="D:\Documents\netbeans_projects\paystation\null620421581" />
+    <property name="javac.test.classpath" value=":build/classes:D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar:D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="java.specification.version" value="11" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javadoc.preview" value="true" />
+    <property name="do.depend" value="false" />
+    <property name="libs.spring-framework400.classpath" value="D:\Programs\netbeans\ide\modules\org-apache-commons-logging.jar;D:\Programs\netbeans\java\modules\ext\cglib-2.2.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;D:\Programs\netbeans\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="debug.modulepath" value="" />
+    <property name="libs.jaxb.classpath" value="D:\Programs\netbeans\ide\modules\ext\jaxb\jaxb-impl-2.2.5-2.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\jaxb-xjc-2.2.5-2.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\jaxb1-impl-2.2.5-2.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\activation.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.javadoc" value="D:\Programs\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="sun.boot.library.path" value="D:\Programs\jdk\jdk-11\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner paystation.domain.PayStationImplTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Documents\netbeans_projects\paystation\build\test\results\TEST-paystation.domain.PayStationImplTest.xml crashfile=D:\Documents\netbeans_projects\paystation\build\junitvmwatcher8090839305949868442.properties propsfile=D:\Documents\netbeans_projects\paystation\build\junit1798980372706740129.properties" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="jdk.debug" value="release" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="javac.source" value="1.8" />
+    <property name="javadoc.use" value="true" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="java.version.date" value="2018-09-25" />
+    <property name="java.home" value="D:\Programs\jdk\jdk-11" />
+    <property name="basedir" value="D:\Documents\netbeans_projects\paystation" />
+    <property name="application.vendor" value="Paul" />
+    <property name="work.dir" value="D:\Documents\netbeans_projects\paystation" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="jna.boot.library.name" value="jnidispatch-440" />
+    <property name="javac.test.compilerargs" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="libs.PostgreSQLDriver.classpath" value="D:\Programs\netbeans\ide\modules\ext\postgresql-9.4.1209.jar" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="netbeans.extbrowser.manual_chrome_plugin_install" value="yes" />
+    <property name="manifest.encoding" value="UTF-8" />
+    <property name="user.script" value="" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\ALEX-PC\AppData\Roaming\NetBeans" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="run.test.modulepath" value="" />
+    <property name="jdk.home" value="D:\Programs\jdk\jdk-11" />
+    <property name="java.runtime.version" value="11+28" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="debug.test.modulepath" value="" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="sun.zip.disableMemoryMapping" value="true" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|MSI" />
+    <property name="java.vendor.version" value="18.9" />
+    <property name="libs.absolutelayout.classpath" value="D:\Programs\netbeans\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="java.io.tmpdir" value="C:\Users\ALEX-PC\AppData\Local\Temp\" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="do.archive" value="true" />
+    <property name="java.version" value="11" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="built-jar.properties" value="D:\Documents\netbeans_projects\paystation\build\built-jar.properties" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="libs.testng.src" value="" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="platform.active" value="default_platform" />
+    <property name="java.library.path" value="D:\Programs\jdk\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ALEX-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\ALEX-PC\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="libs.testng.javadoc" value="D:\Programs\netbeans\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="default.javac.source" value="11" />
+    <property name="sun.desktop" value="windows" />
+    <property name="netbeans.dynamic.classpath" value="D:\Programs\netbeans\platform\core\asm-all-5.0.1.jar;D:\Programs\netbeans\platform\core\core-base.jar;D:\Programs\netbeans\platform\core\core.jar;D:\Programs\netbeans\platform\core\org-netbeans-libs-asm.jar;D:\Programs\netbeans\platform\core\org-openide-filesystems-compat8.jar;D:\Programs\netbeans\platform\core\org-openide-filesystems.jar;D:\Programs\netbeans\nb\core\org-netbeans-upgrader.jar;D:\Programs\netbeans\nb\core\locale\core_nb.jar" />
+    <property name="test.includes" value="paystation/domain/PayStationImplTest.java" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.5.2.jar" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="test.src.dir" value="test" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="netbeans.buildnumber" value="incubator-netbeans-release-334-on-20180708" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="user.timezone" value="" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.jpa20-persistence.classpath" value="D:\Programs\netbeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="javadoc.private" value="false" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.author" value="false" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|MSI" />
+    <property name="main.class" value="" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="user.home" value="C:\Users\ALEX-PC" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="have.sources" value="true" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="javac.deprecation" value="false" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="plugin.manager.check.updates" value="false" />
+    <property name="ant.file.type.paystation" value="file" />
+    <property name="run.jvmargs" value="" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="dist.jar" value="dist/paystation.jar" />
+    <property name="ant.file" value="D:\Documents\netbeans_projects\paystation\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="D:\Programs\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="os.version" value="10.0" />
+    <property name="netbeans.home" value="D:\Programs\netbeans\platform" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.jaxws21.javadoc" value="D:\Programs\netbeans\java\docs\jaxws-api-doc.zip" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="ap.processors.internal" value="" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="libs.jaxws21.classpath" value="D:\Programs\netbeans\java\modules\ext\jaxws22\FastInfoset.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\gmbal-api-only.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\ha-api.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\javax.mail_1.4.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\jaxws-rt.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\jaxws-tools.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\management-api.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\mimepull.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\policy.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\saaj-impl.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\stax-ex.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\stax2-api.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\streambuffer.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\woodstox-core-asl.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\api\jaxws-api.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\api\jsr181-api.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\api\javax.annotation.jar;D:\Programs\netbeans\java\modules\ext\jaxws22\api\saaj-api.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\activation.jar;D:\Programs\netbeans\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="com.sun.security.enableCRLDP" value="true" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="run.test.classpath" value=":build/classes:D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar:D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="java.class.version" value="55.0" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="src.dir" value="src" />
+    <property name="org.netbeans.io.suspend" value="0" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="excludes" value="" />
+    <property name="ant.project.name" value="paystation" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="run.test.jvmargs" value="" />
+    <property name="libs.junit_4.javadoc" value="D:\Programs\netbeans\platform\docs\junit-4.12-javadoc.jar" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="default.javac.target" value="11" />
+    <property name="javac.fork" value="false" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.eclipselink.classpath" value="D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.core-2.5.2.jar;D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.asm-2.5.2.jar;D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.antlr-2.5.2.jar;D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa-2.5.2.jar;D:\Programs\netbeans\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql-2.5.2.jar;D:\Programs\netbeans\java\modules\ext\eclipselink\javax.persistence-2.1.0.jar" />
+    <property name="libs.javac-api.classpath" value="" />
+    <property name="ant.file.paystation-impl" value="D:\Documents\netbeans_projects\paystation\nbproject\build-impl.xml" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="empty.dir" value="D:\Documents\netbeans_projects\paystation\build\empty" />
+    <property name="testng.mode" value="testng" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="netbeans.user" value="C:\Users\ALEX-PC\AppData\Roaming\NetBeans\9.0" />
+    <property name="javac.includes.binary" value="D:\Documents\netbeans_projects\paystation\build\test\classes\paystation\domain\PayStationImplTest.class" />
+    <property name="file.separator" value="\" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="netbeans.productversion" value="Apache NetBeans IDE 9.0 (Build incubator-netbeans-release-334-on-20180708)" />
+    <property name="javac.debug" value="true" />
+    <property name="libs.testng.classpath" value="D:\Programs\netbeans\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="user.name" value="ALEX-PC" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="nb.junit.single" value="false" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="nb.internal.action.name" value="run.single" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="ant.file.type.paystation-impl" value="file" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="dist.dir" value="dist" />
+    <property name="build.dir" value="build" />
+    <property name="jna.loaded" value="true" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="libs.jpa20-persistence.javadoc" value="D:\Programs\netbeans\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="javadoc.version" value="false" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="libs.CopyLibs.classpath" value="D:\Programs\netbeans\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="ant.home" value="D:\Programs\netbeans\extide\ant" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="debug.test.classpath" value=":build/classes:D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar:D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="have.tests" value="true" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.target" value="1.8" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.4 compiled on June 19 2018" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="javac.test.processorpath" value=":build/classes:D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar:D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="java.failonerror" value="true" />
+    <property name="netbeans.dirs" value="D:\Programs\netbeans\nb;D:\Programs\netbeans\ergonomics;D:\Programs\netbeans\ide;D:\Programs\netbeans\extide;D:\Programs\netbeans\java;D:\Programs\netbeans\apisupport;D:\Programs\netbeans\webcommon;D:\Programs\netbeans\websvccommon;D:\Programs\netbeans\enterprise;D:\Programs\netbeans\mobility;D:\Programs\netbeans\profiler;D:\Programs\netbeans\python;D:\Programs\netbeans\php;D:\Programs\netbeans\identity;D:\Programs\netbeans\harness;D:\Programs\netbeans\cnd;D:\Programs\netbeans\cndext;D:\Programs\netbeans\dlight;D:\Programs\netbeans\groovy;D:\Programs\netbeans\extra;D:\Programs\netbeans\javacard;D:\Programs\netbeans\javafx" />
+    <property name="javac.modulepath" value="" />
+    <property name="user.properties.file" value="C:\Users\ALEX-PC\AppData\Roaming\NetBeans\9.0\build.properties" />
+    <property name="javac.includes" value="paystation/domain/PayStationImplTest.java" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="javac.processorpath" value="" />
+    <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
+    <property name="java.class.path" value="D:\Documents\netbeans_projects\paystation\build\classes;D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar;D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar;D:\Documents\netbeans_projects\paystation\build\test\classes;D:\Programs\netbeans\extide\ant\lib\ant-launcher.jar;D:\Programs\netbeans\extide\ant\lib\ant.jar;D:\Programs\netbeans\extide\ant\lib\ant-junit.jar;D:\Programs\netbeans\extide\ant\lib\ant-junit4.jar" />
+    <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="jdk.launcher.addexports.0" value="java.desktop/sun.awt=ALL-UNNAMED" />
+    <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
+    <property name="user.variant" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="run.modulepath" value="" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="ant.file.paystation" value="D:\Documents\netbeans_projects\paystation\build.xml" />
+    <property name="javac.compilerargs" value="" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="endorsed.classpath" value="" />
+    <property name="javac.test.sourcepath" value="D:\Documents\netbeans_projects\paystation\build\empty" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.junit_4.src" value="D:\Programs\netbeans\platform\docs\junit-4.12-sources.jar" />
+    <property name="user.language" value="en" />
+    <property name="junit.selected.version" value="4" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="includes" value="**" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="ant.java.version" value="11" />
+    <property name="libs.junit_4.classpath" value="D:\Programs\netbeans\platform\modules\ext\junit-4.12.jar" />
+    <property name="libs.hamcrest.classpath" value="D:\Programs\netbeans\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="libs.JWSAntTasks.classpath" value="D:\Programs\netbeans\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="junit.available" value="true" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="javac.processormodulepath" value="" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="" />
+    <property name="do.mkdist" value="true" />
+    <property name="netbeans.hash.code" value="unique=0fc17f6e5-cf19-44a9-af80-5f7f7eaaeab5_7ff357df-aa26-4244-91d6-743c1b8a9d0a" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="libs.jaxb.javadoc" value="D:\Programs\netbeans\ide\docs\jaxb-api-2.2.5-javadoc.jar" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="ant.core.lib" value="D:\Programs\netbeans\extide\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="netbeans.logger.console" value="true" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="user.dir" value="D:\Documents\netbeans_projects\paystation" />
+    <property name="platform.java" value="D:\Programs\jdk\jdk-11/bin/java" />
+    <property name="application.title" value="paystation" />
+    <property name="application.args" value="" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="javac.test.modulepath" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="java.vm.version" value="11+28" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="test.class" value="paystation.domain.PayStationImplTest" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+  </properties>
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldClearAfterCancel" time="0.002" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="buyClearsMap" time="0.001" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="callToEmpty" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldClearAfterBuy" time="0.001" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldReturnReceiptWhenBuy100c" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldRejectIllegalCoin" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="cancelClearsMap" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldDisplay14MinFor10And25Cents" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="cancelOneCoin" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="emptyResetsToZero" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="cancelCallReturnsMapOfMixture" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldDisplay2MinFor5Cents" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldReturnCorrectReceiptWhenBuy" time="0.0" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="shouldDisplay10MinFor25Cents" time="0.001" />
+  <testcase classname="paystation.domain.PayStationImplTest" name="cancelCallReturnsOnlyEnteredKey" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
